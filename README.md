@@ -6,13 +6,14 @@ Building a program that can control the electric door automatically with advance
 
 ## Prerequisites
 
-A mqtt broker (with two topic) </br>
-A bridge (in this repository)</br>
-An arduino with WiFi and serial port</br>
+A mqtt broker (with two topic) <br>
+~~A bridge (in this repository)~~<br>
+An arduino with WiFi and serial port<br>
 A computer with digital camera 
 
 ## Set up the mqtt broker
-You can build the self-modified server using mosquitto.</br>
+You can build the self-modified server using mosquitto.<br>
+Or simply use the free public brokers.
 
 ## Set up Arudino
 upload the code to the arduino.<br>
