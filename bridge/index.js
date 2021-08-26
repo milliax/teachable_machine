@@ -22,7 +22,9 @@ client.on('connect',()=>{
 })
 
 const sensitive = 10;
+var now = 0;
 
 client.on('message',(topic,msg)=>{
     console.log(`Recieved: ${topic}, Message: ${msg.toString()}`)
+    now++;
 })
